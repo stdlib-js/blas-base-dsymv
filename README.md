@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-dsymv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dsymv@umd/browser.js' )
+dsymv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dsymv@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var dsymv = require( 'path/to/vendor/umd/blas-base-dsymv/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dsymv@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dsymv@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -190,7 +190,7 @@ dsymv.ndarray( 'row-major', 'lower', 3, 1.0, A, 3, x, -1, 2, 1.0, y, -1, 2 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dsymv@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dsymv@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
