@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dsymv from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dsymv@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-dsymv/tags). For example,
+
+```javascript
 import dsymv from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dsymv@v0.1.1-deno/mod.js';
 ```
 
@@ -163,7 +168,7 @@ dsymv.ndarray( 'row-major', 'lower', 3, 1.0, A, 3, x, -1, 2, 1.0, y, -1, 2 );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@deno/mod.js';
-import dsymv from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dsymv@v0.1.1-deno/mod.js';
+import dsymv from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dsymv@deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
