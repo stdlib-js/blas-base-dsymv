@@ -2,9 +2,43 @@
 
 > Package changelog.
 
-<section class="release" id="v0.0.1">
+<section class="release" id="unreleased">
 
-## 0.0.1 (2026-02-08)
+## Unreleased (2026-02-27)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`8bb0e6f`](https://github.com/stdlib-js/stdlib/commit/8bb0e6f15ff0a45a403393551d630830ee0afa05) - **bench:** use string interpolation in `blas/base/dsymv` [(#10521)](https://github.com/stdlib-js/stdlib/pull/10521) _(by Om-A-osc)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Om-A-osc
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.1">
+
+## 0.1.1 (2026-02-08)
 
 <section class="features">
 
