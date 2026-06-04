@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-11)
+## Unreleased (2026-06-04)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`ec68ca7`](https://github.com/stdlib-js/stdlib/commit/ec68ca7cc35210db29a028d561ec71968e2ff753) - **docs:** fix TSDoc errors in `blas` declarations [(#12529)](https://github.com/stdlib-js/stdlib/pull/12529) _(by Philipp Burckhardt, Athan Reines)_
 -   [`8bb0e6f`](https://github.com/stdlib-js/stdlib/commit/8bb0e6f15ff0a45a403393551d630830ee0afa05) - **bench:** use string interpolation in `blas/base/dsymv` [(#10521)](https://github.com/stdlib-js/stdlib/pull/10521) _(by Om-A-osc)_
 
 </details>
@@ -24,9 +25,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Om-A-osc
+-   Philipp Burckhardt
 
 </section>
 
