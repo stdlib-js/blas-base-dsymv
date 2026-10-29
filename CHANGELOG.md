@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-26)
+## Unreleased (2026-10-29)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`73c3f62`](https://github.com/stdlib-js/stdlib/commit/73c3f62ea82172344c5c4fe2a6aaf65132b36d64) - **test:** migrate `blas/base/dsymv` to ULP-based assertions [(#15972)](https://github.com/stdlib-js/stdlib/pull/15972) _(by Athan Reines)_
 -   [`35cf7c0`](https://github.com/stdlib-js/stdlib/commit/35cf7c0a5265b298c9300bb4af91cf6a575918d4) - **style:** resolve lint errors [(#13911)](https://github.com/stdlib-js/stdlib/pull/13911) _(by pragyan shankar, Athan Reines)_
 -   [`f2ac530`](https://github.com/stdlib-js/stdlib/commit/f2ac530254fba4c82a70e670aafc4904cbba44d8) - **refactor:** add support for enums in `blas/base/dsymv` [(#13501)](https://github.com/stdlib-js/stdlib/pull/13501) _(by Kaustubh Patange, Athan Reines)_
 -   [`ec68ca7`](https://github.com/stdlib-js/stdlib/commit/ec68ca7cc35210db29a028d561ec71968e2ff753) - **docs:** fix TSDoc errors in `blas` declarations [(#12529)](https://github.com/stdlib-js/stdlib/pull/12529) _(by Philipp Burckhardt, Athan Reines)_
